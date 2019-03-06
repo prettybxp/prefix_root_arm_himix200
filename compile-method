@@ -26,3 +26,11 @@ using gcc : arm : arm-himix200-linux-gcc ;
 make
 make install
 
+[protobuf]
+wget https://github.com/protocolbuffers/protobuf/releases/download/v3.7.0/protoc-3.7.0-linux-x86_64.zip
+cp protoc /home/ry10091/prefix_root_arm_himix200
+wget https://github.com/protocolbuffers/protobuf/releases/download/v3.7.0/protobuf-cpp-3.7.0.tar.gz
+./configure --prefix=/home/ry10091/prefix_root_arm_himix200/ --host=arm-linux --with-protoc=/home/ry10091/prefix_root_arm_himix200/bin/protoc
+make
+make install
+
