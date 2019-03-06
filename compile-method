@@ -1,0 +1,17 @@
+
+[zlib]
+./configure --prefix=/home/ry10091/prefix_root_arm_himix200
+make
+make install
+
+[openssl]
+./Configure --prefix=/home/ry10091/prefix_root_arm_himix200 os/compiler:arm
+make
+make install
+
+[openssh]
+./configure --prefix=/home/ry10091/prefix_root_arm_himix200 --host=arm
+make
+make install
+
+
