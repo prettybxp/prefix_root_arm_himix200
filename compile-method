@@ -21,3 +21,8 @@ using gcc : arm : arm-himix200-linux-gcc ;
 ./bjam
 ./bjam install
 
+[zmq]
+./configure --prefix=/home/ry10091/prefix_root_arm_himix200 --host arm-linux
+make
+make install
+
