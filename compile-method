@@ -14,4 +14,10 @@ make install
 make
 make install
 
+[boost]
+./bootstrap.sh --prefix=/home/ry10091/prefix_root_arm_himix200
+vi project-config.jam
+using gcc : arm : arm-himix200-linux-gcc ;
+./bjam
+./bjam install
 
