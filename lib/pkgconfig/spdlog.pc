@@ -1,0 +1,6 @@
+prefix=/home/ry10091/prefix_root_arm_himix200
+includedir=${prefix}/include
+
+Name: spdlog
+Description: Super fast C++ logging library. 
+Version: 1.3.1
